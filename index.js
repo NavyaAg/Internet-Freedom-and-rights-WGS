@@ -15,10 +15,10 @@ setInterval(function() {
 }, 10000);
 
 
-const navLinks=document.querySelector('.nav-links')
-const navItems=document.querySelectorAll('.nav-item')
-const hamburger=document.querySelector('.hamburger')
-const navbar=document.querySelector('.navbar')
+var navLinks=document.querySelector('.nav-links')
+var navItems=document.querySelectorAll('.nav-item')
+var hamburger=document.querySelector('.hamburger')
+var navbar=document.querySelector('.navbar')
 
 document.querySelector('.hamburger').addEventListener('click', ()=>{
     console.log("clicked")
