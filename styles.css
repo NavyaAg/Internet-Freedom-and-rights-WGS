@@ -32,7 +32,7 @@ body{
        width: 100%;
         justify-content: space-between;
         align-items: center;
-        z-index: 100;
+        z-index: 1000;
        /* background-color: #5b78c5;*/
         color:#EEEEEE;
         padding: 2% 10% 1%;
