@@ -21,7 +21,7 @@ var hamburger=document.querySelector('.hamburger')
 var navbar=document.querySelector('.navbar')
 
 document.querySelector('.hamburger').addEventListener('click', ()=>{
-    console.log("clicked")
+   
     navLinks.classList.toggle('open')
     hamburger.classList.toggle('clicked')
 })
@@ -35,4 +35,4 @@ window.onscroll = () => {
     }
 };
 
-alert("sleep");
+
